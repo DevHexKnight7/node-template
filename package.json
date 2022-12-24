@@ -1,0 +1,21 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "template for node",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mihir",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.7.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "prisma": "^4.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  }
+}
